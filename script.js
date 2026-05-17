@@ -385,7 +385,12 @@ async function updateCombinedResult() {
         await savePrediction(score, level);
     }
 }
+function logout() {
 
+    localStorage.removeItem("currentUser");
+
+    window.location.href = "login.html";
+}
 /* ---------------- IMAGE HANDLING (KEEP YOUR EXISTING ONE) ---------------- */
 /* DO NOT CHANGE YOUR IMAGE + LOCATION CODE */
 

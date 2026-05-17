@@ -389,7 +389,7 @@ function logout() {
 
     localStorage.removeItem("currentUser");
 
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 }
 /* ---------------- IMAGE HANDLING (KEEP YOUR EXISTING ONE) ---------------- */
 /* DO NOT CHANGE YOUR IMAGE + LOCATION CODE */
